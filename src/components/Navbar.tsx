@@ -135,7 +135,7 @@ const NavItem = ({ label, sectionId, isActive, onClick }: NavItemProps) => {
             ? "w-full text-left" 
             : "",
             isActive
-            ? "bg-[linear-gradient(122deg,#927AFF_16.11%,#0051FF_108.71%)] text-white"
+            ? "bg-[linear-gradient(122deg,#FFFFFF_16.11%,#FFFFFF_108.71%)] text-black"
             : "text-white/80 hover:text-white hover:bg-white/10"
         )}
       >

@@ -49,11 +49,11 @@ const Index = () => {
       <main>
         <Hero />
         
-        <Experience className="mt-12 mb-12"/>
+        <Experience className="mt-12 mb-24"/>
 
-        <Projects className="mt-12 mb-12"/>
+        <Projects className="mt-24 mb-12"/>
         
-        <AnimatedSection id="contact" className="bg-black mt-12 mb-12">
+        <AnimatedSection id="contact" className="bg-black mt-32 mb-32">
           <div className="container max-w-5xl mx-auto px-4 md:px-6">
             <div className="space-y-8 flex flex-col justify-center items-center">
               <div className="flex items-center gap-2 opacity-90">
