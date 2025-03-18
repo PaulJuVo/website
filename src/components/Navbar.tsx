@@ -26,7 +26,7 @@ const Navbar = () => {
         if (element) {
           const rect = element.getBoundingClientRect();
           // If the section is in view (with a small buffer to trigger earlier)
-          if (rect.top <= 100 && rect.bottom >= 100) {
+          if (rect.top <= 400 && rect.bottom >= 400) {
             setActiveSection(section);
             break;
           }
