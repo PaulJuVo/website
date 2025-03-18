@@ -84,7 +84,7 @@ const Navbar = () => {
           <>
             <Sheet>
               <SheetTrigger asChild>
-                <button className="p-2 rounded-full bg-black/30 backdrop-blur-sm border border-white/10">
+                <button className="p-2 rounded-full bg-black/30 backdrop-blur-sm border border-white/10 md:block hidden">
                   <Menu className="text-white" size={20} />
                 </button>
               </SheetTrigger>
