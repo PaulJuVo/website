@@ -65,7 +65,7 @@
   }
   
   .section-padding {
-    @apply py-20 md:py-28;
+    @apply py-6 md:py-12;
   }
   
   .fade-in {

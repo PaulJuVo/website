@@ -21,7 +21,7 @@ const Hero = ({ className }: HeroProps) => {
             <div className="bg-secondary rounded-lg overflow-hidden w-full aspect-square max-w-[300px]">
               {/* Profilbild */}
                 <img
-                  src="Mercedes-Benz-Logo.png" // Ersetze dies mit der URL deines Bildes
+                  src="Frame9.png" // Ersetze dies mit der URL deines Bildes
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -34,7 +34,7 @@ const Hero = ({ className }: HeroProps) => {
           <div className="md:col-span-2 space-y-6 text-center md:text-left">
             <div className="space-y-2">
               <p className="text-muted-foreground fade-in" style={{ animationDelay: '200ms' }}>
-                Hello I am
+                Hi, my name is
               </p>
               <h2 className="text-3xl md:text-4xl font-bold slide-up" style={{ animationDelay: '400ms' }}>
                 Paul Vogt
@@ -44,10 +44,10 @@ const Hero = ({ className }: HeroProps) => {
             <div className="space-y-4">
               <div className="grid grid-cols-1 gap-4">
                 <p className="text-muted-foreground">
-                Hi, my name is Paul and I am a Computer Science student from Germany. This is my portfolio, where I present my recent projects
+                and I am a Computer Science student from Germany. This is my portfolio, where I present my recent projects.
                 </p>
                 <p className="text-muted-foreground">
-                If you need my help for any project, just send me an email.
+                If you need my help for anything, just send me an email.
                 </p>
               </div>
             </div>

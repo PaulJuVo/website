@@ -59,14 +59,14 @@ const Experience = ({ className }: ExperienceProps) => {
                       </div>
                     </div>
                   </div>
-                  <div className="md:col-span-3 items-stretch">
+                  <div className="md:col-span-3 flex flex-col justify-center h-full">
                     <div>
                       {/* Company Name */}
-                      <h3 className="font-semibold text-lg">{exp.company}</h3>
+                      <h3 className="font-semibold text-lg">{exp.position}</h3>
                     </div>
                     <div className="flex flex-col md:flex-row md:items-start justify-between md:mb-4">
                       {/* Position */}
-                      <h4 className="font-semibold text-white/50 text-lg mt-2 md:mt-0">{exp.position}</h4>
+                      <h4 className="font-semibold text-white/50 text-lg mt-2 md:mt-0">{exp.company}</h4>
 
                       {/* Duration */}
                       <span className="text-muted-foreground text-sm md:text-base mt-1 md:mt-0">

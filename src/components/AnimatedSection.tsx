@@ -47,7 +47,7 @@ const AnimatedSection = ({
       id={id}
       ref={sectionRef}
       className={cn(
-        "section-padding w-full",
+        "w-full section-padding",
         className,
         isVisible && animation,
       )}
