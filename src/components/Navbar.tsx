@@ -106,7 +106,7 @@ const Navbar = () => {
             <div className="w-10"></div> {/* Spacing element for centering */}
           </>
         ) : (
-          <ul className="flex items-center space-x-2 border border-white/10 rounded-full py-1 px-1 backdrop-blur-sm bg-black/30 mx-auto">
+          <ul className="flex items-center space-x-2 border border-white/10 rounded-full py-1 px-1 backdrop-blur-sm bg-black/70 mx-auto">
             {renderNavItems()}
           </ul>
         )}
