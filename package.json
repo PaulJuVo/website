@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-website",
-  "homepage": "https://https://pauljuvo.github.io/portfolio-website/",
+  "name": "website",
+  "homepage": "https://paulvogt.xyz/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'paulvogt.xyz' > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
