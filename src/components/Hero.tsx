@@ -47,7 +47,7 @@ const Hero = ({ className }: HeroProps) => {
                 and I am a Computer Science student from Germany. This is my portfolio, where I present my recent projects.
                 </p>
                 <p className="text-muted-foreground">
-                If you need my help for anything, just send me an email.
+                If you need my help, just send me an email.
                 </p>
               </div>
             </div>

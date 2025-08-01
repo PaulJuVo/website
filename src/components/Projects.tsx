@@ -23,7 +23,13 @@ const Projects = ({ className }: ProjectsProps) => {
         title: "vents",
         description: "Eventplattform for rural areas",
         image: "vents.png", // Hier dein Bildpfad
-        url: "https://www.vents.fun", // Link zu der Webseite des Projekts
+        url: "https://vents.pages.dev", // Link zu der Webseite des Projekts
+      },
+      {
+        title: "pibe-coaching",
+        description: "Website",
+        image: "pibe.png", // Hier dein Bildpfad
+        url: "https://pibe-coaching.de", // Link zu der Webseite des Projekts
       }
   ];
 
