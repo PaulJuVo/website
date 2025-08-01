@@ -1,8 +1,8 @@
 ## Develop
-npm i 
-npm run dev      
+- npm i 
+- npm run dev      
 
 ## Deploy
-npm run predeploy
-npm run deploy
+- npm run predeploy
+- npm run deploy
 
